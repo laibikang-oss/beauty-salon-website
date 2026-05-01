@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+     display: flex;
+    background: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(46, 15, 15);
+    justify-content: space-around;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(27, 65, 77);   /* change to any color you like */
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9") no-repeat center/cover;
+    color: white;
+    text-align: left;
+    padding: 100px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+
+.hero button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    border: none;
+    background: rgb(226, 174, 174);
+    color: #47373f;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.hero button:hover {
+    background: #ffb6c1;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box {
+    margin: 20px;
+    padding: 20px;
+    background: #e6adad;
+    display: inline-block;
+    width: 250px;
+    transition: transform 0.3s;
+}
+.service-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about {
+    background: #ffe4f2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
